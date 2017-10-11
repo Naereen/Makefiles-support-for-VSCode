@@ -1,5 +1,5 @@
 {
-    "name": "Makefiles-support-for-VSCode",
+    "name": "makefiles-support-for-vscode",
     "displayName": "Makefiles support for VSCode",
     "description": "Add support for GNU Makefiles for VSCode. Imported from a TextMate language file.",
     "version": "0.0.1",

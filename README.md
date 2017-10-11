@@ -20,7 +20,7 @@ I will publish the extension as soon as possible on [VSCode Market](https://code
 - Syntax support for Makefile.
 - Comment or uncomment one or more line with the default comment shortcut.
 
-![feature X](images/feature-x.png)
+![Demo](images/demo1.gif)
 
 ----
 
@@ -47,7 +47,6 @@ I will publish the extension as soon as possible on [VSCode Market](https://code
 
 ## [TODO task](https://github.com/Naereen/Makefiles-support-for-VSCode/labels/enhancement)
 - [ ] Embed [checkmake](https://github.com/mrtazz/checkmake) as a linting tool.
-- [ ] Add screenshots or a screencast showing the use of this extension.
 - [ ] Write a magical generic `.vscode/launch.json` file that adds any Makefile rule as a possible launch task (like [this extension for ST3](https://packagecontrol.io/packages/MakeCommands)).
 
 ----
