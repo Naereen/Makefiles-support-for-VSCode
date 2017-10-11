@@ -20,13 +20,13 @@ I will publish the extension as soon as possible on [VSCode Market](https://code
 - Syntax support for Makefile.
 - Comment or uncomment one or more line with the default comment shortcut.
 
-![Demo](images/demo1.gif)
+![Demo](https://github.com/Naereen/Makefiles-support-for-VSCode/raw/master/images/demo1.gif)
 
 ----
 
 ## Requirements
 
-> No requirements.
+> No requirements. Probably a VSCode version more recent that 1.14.
 
 ## Extension Settings
 
@@ -57,9 +57,3 @@ I will publish the extension as soon as possible on [VSCode Market](https://code
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/Makefiles-support-for-VSCode/README.md?pixel)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/)
-
-[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
-
-[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
