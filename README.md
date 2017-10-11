@@ -1,4 +1,4 @@
-# Makefiles support for VSCode
+# [Makefiles support for VSCode](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
 
 Install this extension to have syntax support for [GNU Makefiles](https://www.gnu.org/software/make/manual/make.html) for [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -6,7 +6,21 @@ Install this extension to have syntax support for [GNU Makefiles](https://www.gn
 
 ## Installation
 
-Installation can be done manually:
+With the [VSCode extension market](https://marketplace.visualstudio.com/). Launch VS Code Quick Open (`Ctrl+P`), paste the following command, and press enter:
+
+```
+ext install makefiles-support-for-vscode
+```
+
+(or look for "Makefile" in the extension list, mine is the first one.)
+
+[![Badge for version for Visual Studio Code extension naereen.makefiles-support-for-vscode](https://vsmarketplacebadge.apphb.com/version/naereen.makefiles-support-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
+[![Badge for installs for Visual Studio Code extension naereen.makefiles-support-for-vscode](https://vsmarketplacebadge.apphb.com/installs/naereen.makefiles-support-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
+[![Badge for rating for Visual Studio Code extension naereen.makefiles-support-for-vscode](https://vsmarketplacebadge.apphb.com/rating/naereen.makefiles-support-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
+
+> More details can be found on [the marketplace website](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode#overview), or [on GitHub](https://github.com/Naereen/Makefiles-support-for-VSCode).
+
+And the installation can also be done manually:
 
 ```bash
 cd ~/.vscode/extensions  # or elsewhere, see https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder
@@ -14,14 +28,6 @@ git clone https://github.com/Naereen/Makefiles-support-for-VSCode/
 mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 # restart Visual Studio Code to enable the extension
 ```
-
-Or with the VSCode extension market. Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
-
-```
-ext install makefiles-support-for-vscode
-```
-
-> More details can be found on [the marketplace website](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode#overview), or [on GitHub](https://github.com/Naereen/Makefiles-support-for-VSCode).
 
 ## Features
 
@@ -48,6 +54,9 @@ ext install makefiles-support-for-vscode
 
 ## Release Notes
 
+### [0.0.3](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
+- Added badge, and check that the extension can be uninstalled and reinstalled with success on another laptop.
+
 ### [0.0.2](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
 - Better README.md file.
 
@@ -65,6 +74,8 @@ ext install makefiles-support-for-vscode
 ## :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/badges.svg)](https://github.com/Naereen/Makefiles-support-for-VSCode/blob/master/LICENSE)
 [MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](https://github.com/Naereen/Makefiles-support-for-VSCode/blob/master/LICENSE)).
 © [Lilian Besson](https://GitHub.com/Naereen), 2017.
+
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/Makefiles-support-for-VSCode.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/network/) [![GitHub stars](https://img.shields.io/github/stars/Naereen/Makefiles-support-for-VSCode.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/Makefiles-support-for-VSCode.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/watchers/)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)

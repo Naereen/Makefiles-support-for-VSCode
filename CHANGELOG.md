@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.3](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
+- Added badge, and check that the extension can be uninstalled and reinstalled with success on another laptop.
+
 ## [0.0.2](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
 - Better README.md file.
 
