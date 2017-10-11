@@ -2,9 +2,11 @@
 
 Install this extension to have syntax support for [GNU Makefiles](https://www.gnu.org/software/make/manual/make.html) for [Visual Studio Code](https://code.visualstudio.com/).
 
+![Logo](https://github.com/Naereen/Makefiles-support-for-VSCode/raw/master/images/naereen.makefiles-support-for-vscode.small.png)
+
 ## Installation
 
-For now, installation can be done manually:
+Installation can be done manually:
 
 ```bash
 cd ~/.vscode/extensions  # or elsewhere, see https://code.visualstudio.com/docs/extensions/yocode#_your-extensions-folder
@@ -13,7 +15,13 @@ mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 # restart Visual Studio Code to enable the extension
 ```
 
-I will publish the extension as soon as possible on [VSCode Market](https://code.visualstudio.com/docs/editor/extension-gallery).
+Or with the VSCode extension market. Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
+
+```
+ext install makefiles-support-for-vscode
+```
+
+> More details can be found on [the marketplace website](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode#overview), or [on GitHub](https://github.com/Naereen/Makefiles-support-for-VSCode).
 
 ## Features
 
