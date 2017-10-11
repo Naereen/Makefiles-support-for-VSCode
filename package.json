@@ -1,0 +1,26 @@
+{
+    "name": "Makefiles-support-for-VSCode",
+    "displayName": "Makefiles support for VSCode",
+    "description": "Add support for GNU Makefiles for VSCode. Imported from a TextMate language file.",
+    "version": "0.0.1",
+    "publisher": "naereen",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "makefile",
+            "aliases": ["makefile", "Makefile"],
+            "extensions": [".make",".GNUmakefile",".makefile",".Makefile",".OCamlMakefile",".mak",".mk"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "Makefile",
+            "scopeName": "source.makefile",
+            "path": "./syntaxes/Makefile.tmLanguage"
+        }]
+    }
+}
