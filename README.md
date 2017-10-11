@@ -52,7 +52,7 @@ I will publish the extension as soon as possible on [VSCode Market](https://code
 ----
 
 ## :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/badges.svg)](https://github.com/Naereen/Makefiles-support-for-VSCode/blob/master/LICENSE)
-[MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
+[MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](https://github.com/Naereen/Makefiles-support-for-VSCode/blob/master/LICENSE)).
 © [Lilian Besson](https://GitHub.com/Naereen), 2017.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/Makefiles-support-for-VSCode/graphs/commit-activity)
