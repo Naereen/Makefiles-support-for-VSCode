@@ -2,7 +2,7 @@
     "name": "makefiles-support-for-vscode",
     "displayName": "Makefiles support for VSCode",
     "description": "Add support for GNU Makefiles for VSCode. Imported from a TextMate language file.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "naereen",
     "author":{
         "name": "Lilian Besson (Naereen)"
@@ -17,7 +17,6 @@
         "color": "#006800",
         "theme": "dark"
     },
-    "icon": "./images/naereen.makefiles-support-for-vscode.png",
     "license": "MIT License",
     "bugs": {
         "url": "https://github.com/Naereen/Makefiles-support-for-VSCode/issues",
