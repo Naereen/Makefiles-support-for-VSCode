@@ -48,7 +48,7 @@ mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 
 ## Known Issues
 
-> None for now. Please fill [a new issue if you find a bug!](https://github.com/Naereen/Makefiles-support-for-VSCode/issues/new).
+> None for now. Please fill [a new issue if you find a bug](https://github.com/Naereen/Makefiles-support-for-VSCode/issues/new)!
 
 ----
 

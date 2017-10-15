@@ -6,16 +6,16 @@ all:	clean publish send
 
 send:	send_zamok
 send_zamok:
-	CP --exclude=.ipynb_checkpoints --exclude=.git ./ ${Szam}publis/Makefiles-support-for-VSCode.git/
+	-CP --exclude=.ipynb_checkpoints --exclude=.git ./ ${Szam}publis/Makefiles-support-for-VSCode.git/
 
 ls:
-	@echo "Showing files which will be packaged:"
-	@vsce ls
+	@echo 'Showing files which will be packaged:'
+	+vsce ls
 	@echo "OK? (Ctrl+C to cancel)"
 	@read
 
 clean:
-	rm -vf -- ./*.vsix
+	-rm -vf -- ./*.vsix
 
 package:	ls
 	vsce package
