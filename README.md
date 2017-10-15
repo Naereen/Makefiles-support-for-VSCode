@@ -29,7 +29,7 @@ mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 # restart Visual Studio Code to enable the extension
 ```
 
-## Features
+## Features and demo
 
 - Syntax support for Makefile.
 - Comment or uncomment one or more line with the default comment shortcut.
@@ -40,7 +40,8 @@ mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 
 ## Requirements
 
-> No requirements. Probably a VSCode version more recent that 1.14.
+> No requirements.
+> (Probably a VSCode version more recent that 1.0 ? I have v1.17).
 
 ## Extension Settings
 
@@ -48,7 +49,8 @@ mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 
 ## Known Issues
 
-> None for now. Please fill [a new issue if you find a bug](https://github.com/Naereen/Makefiles-support-for-VSCode/issues/new)!
+> See [the bug tracker](https://github.com/Naereen/Makefiles-support-for-VSCode/issues/) for a list of open issues.
+> Please fill [a new issue if you find a bug](https://github.com/Naereen/Makefiles-support-for-VSCode/issues/new)!
 
 ----
 
@@ -65,7 +67,7 @@ mv Makefiles-support-for-VSCode makefiles-support-for-vscode-0.0.1
 
 ----
 
-## [TODO task](https://github.com/Naereen/Makefiles-support-for-VSCode/labels/enhancement)
+## [TODO task](https://github.com/Naereen/Makefiles-support-for-VSCode/issues/)
 - [ ] Embed [checkmake](https://github.com/mrtazz/checkmake) as a linting tool.
 - [ ] Write a magical generic `.vscode/launch.json` file that adds any Makefile rule as a possible launch task (like [this extension for ST3](https://packagecontrol.io/packages/MakeCommands)).
 

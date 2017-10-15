@@ -8,6 +8,30 @@
             "request": "launch",
             "runtimeExecutable": "${execPath}",
             "args": ["--extensionDevelopmentPath=${workspaceRoot}" ]
+        },
+        {
+            "name": "Bash-debug (select script from list of sh files)",
+            "type": "bashdb",
+            "request": "launch",
+            "executionDirectory": "${workspaceRoot}",
+            "scriptPath": "${command:SelectScriptName}",
+            "commandLineArguments": ""
+        },
+        {
+            "name": "Bash-debug (scripts/get-Makefile-outline.bash)",
+            "type": "bashdb",
+            "request": "launch",
+            "executionDirectory": "${workspaceRoot}",
+            "scriptPath": "${workspaceRoot}/scripts/get-Makefile-outline.bash",
+            "commandLineArguments": "${workspaceRoot}/Makefile"
+        },
+        {
+            "name": "Bash-debug (type in script name)",
+            "type": "bashdb",
+            "request": "launch",
+            "executionDirectory": "${workspaceRoot}",
+            "scriptPath": "${workspaceRoot}/${command:AskForScriptName}",
+            "commandLineArguments": ""
         }
     ]
 }

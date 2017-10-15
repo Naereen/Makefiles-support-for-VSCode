@@ -14,6 +14,9 @@ ls:
 	@echo "OK? (Ctrl+C to cancel)"
 	@read
 
+test_getoutline:
+	./scripts/get-Makefile-outline.bash ./Makefile
+
 clean:
 	-rm -vf -- ./*.vsix
 
