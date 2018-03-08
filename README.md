@@ -1,5 +1,8 @@
 # [Makefiles support for VSCode](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)
 
+**:boom: WARNING** From version 1.21, Visual Studio Code now has a builtin extension to support Makefiles (see [this folder](https://github.com/Microsoft/vscode/tree/master/extensions/make)).
+**Don't use my extension!**
+
 Install this extension to have syntax support for [GNU Makefiles](https://www.gnu.org/software/make/manual/make.html) for [Visual Studio Code](https://code.visualstudio.com/).
 
 ![Logo](https://github.com/Naereen/Makefiles-support-for-VSCode/raw/master/images/naereen.makefiles-support-for-vscode.small.png)
